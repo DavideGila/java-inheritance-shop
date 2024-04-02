@@ -10,6 +10,5 @@ public class Smartphone extends Prodotto {
         this.imei = imei;
         this.memorySize = memorySize;
     }
-    // ATTRIBUTI
 
 }
