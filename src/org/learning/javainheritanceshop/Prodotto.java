@@ -24,6 +24,17 @@ public class Prodotto {
 
 
     // GETTER E SETTER
+    public String getName() {
+        return name;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public BigDecimal getVat() {
+        return vat;
+    }
     public BigDecimal getPrice() {
         return price.setScale(2, RoundingMode.HALF_EVEN);
     }
